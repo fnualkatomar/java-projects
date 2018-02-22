@@ -14,7 +14,8 @@ public class Application {
         
         System.out.println("Let's inspect the beans provided by Spring Boot:");
         System.out.println("Direct CommitFromLocal");
-        System.out.println("Local Direct Commit11232");
+		System.out.println("Local Direct Commit11232Shiv");
+        System.out.println("Direct Commit");
         String[] beanNames = ctx.getBeanDefinitionNames();
         Arrays.sort(beanNames);
         for (String beanName : beanNames) {
